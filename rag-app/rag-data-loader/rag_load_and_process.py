@@ -10,7 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 load_dotenv()
 
 loader = DirectoryLoader(
-    os.path.abspath("/Users/juliocolomer/Documents/000-BOOTCAMP-LLM-APPS/003-NOTEBOOKS/005-RAG-IN-DEPTH/003-RAG-PDFS/167-part4/167-part4/pdf-documents"),
+    os.path.abspath("/Users/anis/OneDrive/Documents/GitHub/RAGbot---Generative_AI-RAG-Application/rag-app/pdf-documents"),
     glob="**/*.pdf",
     use_multithreading=True,
     show_progress=True,
