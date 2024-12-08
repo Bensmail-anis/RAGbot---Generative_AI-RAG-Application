@@ -10,7 +10,7 @@ from langchain_openai import OpenAIEmbeddings
 load_dotenv()
 
 loader = DirectoryLoader(
-    os.path.abspath("/Users/anis/OneDrive/Documents/GitHub/RAGbot---Generative_AI-RAG-Application/rag-app/pdf-documents"),
+    os.path.abspath("C:/Users/anis/OneDrive/Documents/GitHub/RAGbot---Generative_AI-RAG-Application/rag-app/rag-data-loader"),
     glob="**/*.pdf",
     use_multithreading=True,
     show_progress=True,
@@ -32,6 +32,6 @@ PGVector.from_documents(
     documents=chunks,
     embedding=embeddings,
     collection_name="collection164",
-    connection_string="postgresql+psycopg://postgres@localhost:5432/database164",
+    connection_string="postgresql+psycopg://postgres:super4869@localhost:5432/rag",
     pre_delete_collection=True,
 )
