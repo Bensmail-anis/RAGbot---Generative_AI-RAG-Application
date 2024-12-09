@@ -1,10 +1,23 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
+from fastapi.middleware.cors import CORSMiddleware
 from langserve import add_routes
+from starlette.staticfiles import StaticFiles
 from app.rag_chain import final_chain
+
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
+app.mount("/rag/static", StaticFiles(directory="./pdf-documents"), name="static")
 @app.get("/")
 async def redirect_root_to_docs():
     return RedirectResponse("/docs")
