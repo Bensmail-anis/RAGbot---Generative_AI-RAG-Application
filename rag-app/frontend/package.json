@@ -4,12 +4,18 @@
   "private": true,
   "dependencies": {
     "@microsoft/fetch-event-source": "^2.0.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "cra-template-typescript": "1.2.0",
     "lucide-react": "^0.468.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.6",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
     "web-vitals": "^4.2.4"
   },
   "scripts": {

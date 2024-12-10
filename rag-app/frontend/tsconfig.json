@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["./*"]
+        },    
       "target": "ES2015",
       "downlevelIteration": true,
       "lib": [
@@ -23,6 +27,5 @@
       "jsx": "react-jsx"
     },
     "include": [
-      "src"
-    ]
+      "src"   ]
   }
