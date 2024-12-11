@@ -40,7 +40,7 @@ If there is no context , try to use your knowledge.
 
 ANSWER_PROMPT = ChatPromptTemplate.from_template(template)
 
-llm = ChatOpenAI(temperature=0, model='gpt-4-1106-preview', streaming=True)
+llm = ChatOpenAI(temperature=0, model='gpt-4o-mini', streaming=True)
 
 
 class RagInput(TypedDict):
