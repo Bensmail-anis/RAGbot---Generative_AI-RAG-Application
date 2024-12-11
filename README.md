@@ -120,7 +120,6 @@ Watch the video demo below to see RAGbot in action:
 https://github.com/user-attachments/assets/92bc31c4-96b6-4634-bb9b-36af525d4328
 
 
-You can play the video directly in your browser or download it for offline viewing.
 
 ## License
 
