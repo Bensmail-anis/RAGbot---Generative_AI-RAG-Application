@@ -2,6 +2,8 @@
 
 A powerful chatbot assistant leveraging Retrieval-Augmented Generation (RAG) to answer questions from multiple PDF documents. RAGbot generates accurate responses and provides source references, making it an ideal assistant for working with domain-specific PDFs.
 
+![rag](https://github.com/user-attachments/assets/58719381-f326-41ff-be0f-f20eedd1c7fc)
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -115,7 +117,8 @@ After setting up the frontend, visit `http://localhost:3000` in your browser to 
 
 Watch the video demo below to see RAGbot in action:
 
-[![demo](https://raw.githubusercontent.com/Bensmail-anis/RAGbot---Generative_AI-RAG-Application/main/rag.jpg)](https://raw.githubusercontent.com/Bensmail-anis/RAGbot---Generative_AI-RAG-Application/main/demovideo.mp4)
+https://github.com/user-attachments/assets/92bc31c4-96b6-4634-bb9b-36af525d4328
+
 
 You can play the video directly in your browser or download it for offline viewing.
 
