@@ -15,7 +15,7 @@ A powerful chatbot assistant leveraging Retrieval-Augmented Generation (RAG) to 
 - [License](#license)
 
 ## Project Structure
-
+- You will find a helpful readme files in the backend and frontend directories.
 ### Backend (`rag-app`)
 
 - **Core Files**  
@@ -27,7 +27,7 @@ A powerful chatbot assistant leveraging Retrieval-Augmented Generation (RAG) to 
     - `rag_chain.py`: Logic for connecting LangChain with PDF data.  
 
 - **Utilities**  
-  - `.env`: Environment variable configurations.  
+  - `.env`: Environment variable configurations , put "OPENAI_API_KEY" and Langchain tracing keys .  
   - `Dockerfile`: Containerization support for the backend.
 
 ### Frontend (`frontend`)
@@ -115,7 +115,7 @@ After setting up the frontend, visit `http://localhost:3000` in your browser to 
 
 Watch the video demo below to see RAGbot in action:
 
-![RAGbot Demo](demo_video.webm)
+![RAGbot Demo](demo_video.mp4)
 
 You can play the video directly in your browser or download it for offline viewing.
 
