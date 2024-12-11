@@ -115,7 +115,7 @@ After setting up the frontend, visit `http://localhost:3000` in your browser to 
 
 Watch the video demo below to see RAGbot in action:
 
-![RAGbot Demo](demo-video.mp4)
+[![demo](https://raw.githubusercontent.com/Bensmail-anis/RAGbot---Generative_AI-RAG-Application/main/rag.jpg)](https://raw.githubusercontent.com/Bensmail-anis/RAGbot---Generative_AI-RAG-Application/main/demovideo.mp4)
 
 You can play the video directly in your browser or download it for offline viewing.
 
