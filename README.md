@@ -69,7 +69,7 @@ A powerful chatbot assistant leveraging Retrieval-Augmented Generation (RAG) to 
    poetry install
    ```
 
-Ensure that a PostgreSQL database is installed with the `pgvector` extension enabled. This is required for storing and querying vector embeddings efficiently.Check the official documentations.
+Ensure that a PostgreSQL database is installed with the `pgvector` extension enabled. This is required for storing and querying vector embeddings efficiently.Check the official documentations.Next, connect your created database to your RAG-data-loader/rag_load_process_and_process.py by providing your credentials in PGVector.from_documents() method and in app/rag_chain in PGVector() and 'postgres_memory_url' where you will create another database for chat history.
 ### Frontend Setup
 
 1. Navigate to the `frontend` directory:
